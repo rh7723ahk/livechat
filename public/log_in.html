@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log In</title>
+    <link rel="icon" sizes="32x32" href="/img/braindump_icon.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bulmaswatch/lux/bulmaswatch.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+  <section class="hero is-primary is large is bold">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class=" column is-three-fifths">
+            <div class="title">
+              <img id="the-brain" src="image/brain_logo_copy.png" height="65" width="auto" alt="your chatty brain">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <section class="Site-content">
+    <div class="container color-me">
+      <div class="field">
+        <label class="label">Username</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input" id="username-input" type="text" placeholder="Username" value="">
+          <span class="icon is-small is-left">
+            <i class="fa fa-user"></i>
+          </span>
+        </div>
+        <p class="help is-danger" id="note-u"></p>
+      </div>
+
+      <div class="field">
+        <label class="label">Password</label>
+        <div class="control has-icons-left has-icons-right">
+          <input class="input" id="password-input" type="password" placeholder="Password" value="">
+          <span class="icon is-small is-left">
+            <i class="fa fa-lock"></i>
+          </span>
+        </div>
+        <p class="help is-danger" id="note-p"></p>
+      </div>
+
+      <div class="field is-grouped" style="margin-top: 20px">
+        <div class="control">
+          <button class="button is-link" id="submit">Log In</button>
+        </div>
+        <div class="control">
+          <button class="button is-text" id="cancelme">Cancel</button>
+        </div>
+      </div>
+
+      <div style="margin-top: 25px">
+        <a href="/signup">New User? Sign Up Here</a>
+      </div>
+    </div>
+  </section>
+  <footer class="has-text-centered">
+    Lovingly designed and built by: Felix Moon | Jacob Chaffee | Jenna King | Ryan Hayden | Neil Dhand
+  </footer>
+
+  <script type="text/javascript" src="/js/log_in.js"></script>
+
+  </body>
+</html>

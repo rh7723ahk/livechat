@@ -1,0 +1,95 @@
+  <section class="hero is-primary is large is bold">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class=" column is-two-fifths">
+            <div class="title">
+              <a id="go-main">
+                <img id="the-brain" src="image/brain_logo_copy.png" height="65" width="auto" alt="your chatty brain">
+              </a>
+            </div>
+          </div>
+          <div class="column is-two-fifths">
+
+          </div>
+          <div id="user-div">
+              <h3>Where you say the things you can't say on Facebook.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <section class="Site-content">
+    <div class="container">
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Category</label>
+        </div>
+        <div id ="category-type" class="field-body">
+          <div class="field is-narrow">
+            <div class="control">
+              <div class="select is-fullwidth">
+                <select id="post-category">
+                  <option value="Life">Life</option>
+                  <option value="Gaming">Gaming</option>
+                  <option value="Random">Random</option>
+                  <option value="Funny">Funny</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="new-category-input-div" class="field is-horizontal">
+      </div>
+
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">What's on Your Mind?</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <textarea id="post-body" class="textarea" type="file" placeholder="Create a New Post"></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="field is-horizontal">
+        <div class="field-label is-normal">
+          <label class="label">Attach a file</label>
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <input id="post-file" type="text" placeholder="" style="width: 500px !important" disabled></input>
+              <input type="file" id="file-input">
+              <div id="fileview" style="margin-top: 20px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="field is-horizontal">
+        <div class="field-label">
+          &nbsp;
+        </div>
+        <div class="field-body">
+          <div class="field">
+            <div class="control">
+              <button id="submit-post-button" class="button is-primary">
+                Brain Dump It!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="has-text-centered">
+    Lovingly designed and built by: Felix Moon | Jacob Chaffee | Jenna King | Ryan Hayden | Neil Dhand
+  </footer>
+
+  <script type="text/javascript" src="/js/new_post.js"></script>
